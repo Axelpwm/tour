@@ -1,5 +1,6 @@
 // Ruta de la imagen panorámica (ajusta la ruta según la ubicación de tu imagen)
-var panorama = new Panolens.ImagePanorama('img/restaurant360.jpg');
+var panorama = new Panolens.ImagePanorama('img/test.png');
+
 
 
 // Crear el visor 360° con Panolens.js
@@ -11,7 +12,7 @@ var viewer = new Panolens.Viewer({
 viewer.add(panorama);
 
 // Crear las zonas interactivas (hotspots)
-var hotspotsData = [
+/*var hotspotsData = [
     { position: { x: 0, y: 1, z: -5 }, label: "Zona 1", color: "red", content: "Información sobre la Zona 1" },
     { position: { x: 2, y: 1, z: -6 }, label: "Zona 2", color: "blue", content: "Información sobre la Zona 2" },
     { position: { x: -2, y: 1, z: -5 }, label: "Zona 3", color: "green", content: "Información sobre la Zona 3" },
@@ -22,7 +23,7 @@ var hotspotsData = [
     { position: { x: 1, y: 2, z: -3 }, label: "Zona 8", color: "brown", content: "Información sobre la Zona 8" },
     { position: { x: 0, y: 3, z: -4 }, label: "Zona 9", color: "cyan", content: "Información sobre la Zona 9" },
     { position: { x: -1, y: 2, z: -5 }, label: "Zona 10", color: "magenta", content: "Información sobre la Zona 10" }
-];
+];*/
 
 // Crear los hotspots
 hotspotsData.forEach(function(data) {
